@@ -1,0 +1,140 @@
+name: new_khao_thai
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  auto_size_text: ^2.1.0
+  wave: ^0.0.8
+  audioplayers: ^0.13.3
+
+  bloc: ^2.0.0
+  flutter_bloc: ^2.0.1
+  shared_preferences: ^0.5.4+5
+
+  flutter_spinkit: ^4.0.0
+
+  photo_view: ^0.9.0
+
+  bubble: ^1.1.9+1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: SukhumvitSet
+      fonts:
+        - asset: fonts/SukhumvitSet-Text.ttf
+          weight: 400
+        - asset: fonts/SukhumvitSet-Bold.ttf
+          weight: 700
+        - asset: fonts/SukhumvitSet-Light.ttf
+          weight: 300
+        - asset: fonts/SukhumvitSet-Medium.ttf
+          weight: 500
+        - asset: fonts/SukhumvitSet-SemiBold.ttf
+          weight: 600
+        - asset: fonts/SukhumvitSet-Thin.ttf
+          weight: 200
+    - family: THSarabunNew
+      fonts:
+        - asset: fonts/THSarabunNew.ttf
+          weight: 400
+        - asset: fonts/THSarabunNewBold.ttf
+          weight: 700
+
+  assets:
+    - images/icons8-house-50.png
+    - images/paddy.jpg
+    - images/icons8-house-filled-50.png
+    - images/icons8-dog-house-100.png
+    - images/icons8-confectionery-100.png
+    - images/icons8-confectionery-filled-100.png
+    - images/icons8-cafe-100.png
+    - images/icons8-cafe-filled-100.png
+    - images/icons8-spa-flower-filled-100.png
+    - images/icons8-spa-flower-100.png
+    - images/S__5226571_0.jpg
+    - images/icons8-chat-100.png
+    - images/icons8-chat-100-filled.png
+    - images/icons8-carbohydrates-filled-100.png
+    - images/icons8-carbohydrates-100.png
+    - images/cereal2.png
+    - images/coffee-mug2.png
+    - images/cookies2.png
+    - images/herbal-massage2.png
+    - images/KhaoThai/Wallpaper/IMG_3074.jpg
+    - images/KhaoThai/Wallpaper/IMG_3073.jpg
+    - images/KhaoThai/Menu/4620693218536036483.0f36b7d406ed122c9db7abb828d0c89b.19080407.jpg
+    - images/KhaoThai/Menu/4620693218534575887.a89254900a38e94a01b671d889801ead.19061312 2.jpg
+    - images/KhaoThai/Menu/6-2.jpg
+    - images/KhaoThai/Menu/oat-milk-great-benefit-to-the-skin.jpg
+    - images/KhaoThai/RiceCracker/4620693218534575887.c8021b68cf41c2a68c5cb40b68f8c679.19061312.jpg
+    - images/KhaoThai/RiceCracker/4620693218534575887.0f3cb56ee16b9ee63ab961c1c5e11ac7.19061312.jpg
+    - images/KhaoThai/RiceCracker/4620693218534575887.0f1e88c290c19c494ed9b806d6ded004.19061312.jpg
+    - images/KhaoThai/RiceCracker/4620693218534575887.3d1adcc9fc4e8991f62319f48b07d6b5.19061312.jpg
+    - images/KhaoThai/RiceCracker/4620693218534575887.6d387dd82426e633796d6b2536991396.19061312.jpg
+    - images/KhaoThai/RiceCracker/4620693218534575887.7db1a3e4a584e8130b37aaf4c75c2ad5.19061312.jpg
+    - images/KhaoThai/RiceCracker/4620693218534575887.699e20ec443cc7accec502cf6f61c3cb.19061312.jpg
+    - images/KhaoThai/RiceCracker/4620693218534575887.4068aff98f2555bdef173b7da7a49a30.19061312.jpg
+    - images/KhaoThai/RiceCracker/4620693218534575887.13333f43dcc8385310bf76e1122db061.19061312.jpg
+    - images/KhaoThai/RiceCracker/4620693218534575887.38172a37ac05227cd75a97998f9f8bc6.19061312.jpg
+    - images/KhaoThai/RiceCracker/4620693218534575887.458034980d036fcf765d2681bed0ee12.19061312.jpg
+    - images/KhaoThai/RiceCracker/4620693218534575887.16930462029ff1325bf7ed4055273196.19061312.jpg
+    - images/KhaoThai/RiceCracker/4620693218534575887.a89254900a38e94a01b671d889801ead.19061312.jpg
+    - images/KhaoThai/RiceCracker/4620693218534575887.daa336388aaa3ccce225420840e8b2ab.19061312.jpg
+    - images/KhaoThai/RiceCracker/4620693218534575887.f9521477eb26a350d70f3732604a27fb.19061312.jpg
+
+    - images/KhaoThai/StickyRice/4620693218534908109.88321625995846291ea89564e35573a3.19062511.jpg
+    - images/KhaoThai/StickyRice/4620693218534908109.64ed40c2ddfe8ecf50a6eb6af0f8fcb8.19062511.jpg
+    - images/KhaoThai/StickyRice/4620693218534908109.430e6230469ecb68b92ca456240b38d5.19062511.jpg
+    - images/KhaoThai/StickyRice/4620693218534908109.70483adfd99195fc6695572f29113f84.19062511.jpg
+    - images/KhaoThai/StickyRice/4620693218534908109.a7f636e6cecae48e671cec801e5b8339.19062511.jpg
+    - images/KhaoThai/StickyRice/4620693218534908109.ecf665d4fece74b6c2166aea4d0fc254.19062511.jpg
+
+    - images/KhaoThai/GrilledStickyBananaLeaf/4620693218536221045.f97b42f1e55ec40667a4afbe07941d35.19081010.jpg
+    - images/KhaoThai/GrilledStickyBananaLeaf/4620693218536221045.51e6cf7c4cd84586da723d89cc374fb0.19081010.jpg
+    - images/KhaoThai/GrilledStickyBananaLeaf/4620693218536221045.8481f32c6e4e8a02bff732f68d284c54.19081010.jpg
+    - images/KhaoThai/GrilledStickyBananaLeaf/4620693218536221045.bd3c8f1ec8502a8f757237f4e1f3d5b6.19081010.jpg
+
+    - images/KhaoThai/SouthernThaiRice/4620693218536026847.ce4e6700df961d049f6dab41918ff02c.19080402.jpg
+    - images/KhaoThai/SouthernThaiRice/4620693218536026847.4e88d7b843c8e76b6573c7b1058a73c7.19080402.jpg
+    - images/KhaoThai/SouthernThaiRice/4620693218536026847.7cc1a921234095013de5eaa79ad27974.19080402.jpg
+
+    - images/KhaoThai/ThaiRiceChips/4620693218536026890.1b7a2c8b596236aac38a1fc1476ef31e.19080402.jpg
+    - images/KhaoThai/ThaiRiceChips/4620693218536026890.4095d6802c15234558d01eb70cfe109a.19080402.jpg
+
+    - images/KhaoThai/StickyRiceCoconutMilk/4620693218536036542.364ed1ef5b1565fdf0d193df64d1dc43.19080407.jpg
+
+    - images/KhaoThai/GrilledStickyRice/4620693218534908066.5bb6acf7b150e4362e9455d4fa6fa7e9.19062511.jpg
+    - images/KhaoThai/GrilledStickyRice/4620693218534575887.4068aff98f2555bdef173b7da7a49a30.19061312.jpg
+    - images/KhaoThai/GrilledStickyRice/4620693218534908066.4416fed782055d40a5867def2f87a50e.19062511.jpg
+    - images/KhaoThai/GrilledStickyRice/4620693218534908066.aef3742482fbb7ec77bab4f0de5345ab.19062511.jpg
+
+    - images/KhaoThai/SweetStuffedDoughPyramid/4620693218536220936.440cf8ddb44e3ea8afd972720c2d19a8.19081010.jpg
+    - images/KhaoThai/SweetStuffedDoughPyramid/4620693218536220936.c57d436789233423914801959078e60f.19081010.jpg
+
+    - images/KhaoThai/HerbalBall/4620693218536036483.1f786335035392d1be8570613efe581d.19080407.jpg
+
+    - images/KhaoThai/Rice/JasmineRice/560000011723801.JPEG
+    - images/KhaoThai/Rice/Riceberry/riceberry.jpg
+    - images/KhaoThai/Rice/BrownRice/rice.jpg
+    - images/KhaoThai/Rice/StickyRice/0d3fd54a9c784cf206debb086313d2fe_full.jpg
+    - images/KhaoThai/Rice/SteamedRice/SteamedRice.jpg
+    - images/KhaoThai/Rice/PurpleRice/asdfaedfe-thegem-blog-default.jpg
+    - images/KhaoThai/Rice/e0b984e0b8a7e0b899e0b98ce0b8abe0b989e0b8a7e0b8a2e0b882e0b989e0b8b2e0b8a7e0b881e0b988e0b8b3.jpg
+    - images/KhaoThai/Rice/2-21.jpg
